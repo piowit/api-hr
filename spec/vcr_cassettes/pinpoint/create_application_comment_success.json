@@ -1,0 +1,99 @@
+{
+  "http_interactions": [
+    {
+      "request": {
+        "method": "post",
+        "uri": "https://developers-test.pinpointhq.com/api/v1/comments",
+        "body": {
+          "encoding": "UTF-8",
+          "string": "{\"data\":{\"type\":\"comments\",\"attributes\":{\"body_text\":\"This is a test comment\"},\"relationships\":{\"commentable\":{\"data\":{\"type\":\"applications\",\"id\":\"8863860\"}}}}}"
+        },
+        "headers": {
+          "X-Api-Key": [
+            "<PINPOINT_API_KEY>"
+          ],
+          "Accept": [
+            "application/json"
+          ],
+          "Content-Type": [
+            "application/json"
+          ],
+          "Accept-Encoding": [
+            "gzip;q=1.0,deflate;q=0.6,identity;q=0.3"
+          ],
+          "User-Agent": [
+            "Ruby"
+          ]
+        }
+      },
+      "response": {
+        "status": {
+          "code": 201,
+          "message": "Created"
+        },
+        "headers": {
+          "Date": [
+            "Tue, 13 May 2025 17:10:21 GMT"
+          ],
+          "Content-Type": [
+            "application/vnd.api+json; charset=utf-8"
+          ],
+          "Transfer-Encoding": [
+            "chunked"
+          ],
+          "X-Frame-Options": [
+            "SAMEORIGIN"
+          ],
+          "X-Xss-Protection": [
+            "1; mode=block"
+          ],
+          "X-Content-Type-Options": [
+            "nosniff"
+          ],
+          "X-Download-Options": [
+            "noopen"
+          ],
+          "X-Permitted-Cross-Domain-Policies": [
+            "none"
+          ],
+          "Referrer-Policy": [
+            "strict-origin-when-cross-origin"
+          ],
+          "X-Pinpoint-Version": [
+            "ce53e7eea65bce3cd4d0807fd14d60c604511758-1747153554"
+          ],
+          "Etag": [
+            "W/\"b47caad774447c2d7cf66c35b32e0040\""
+          ],
+          "Cache-Control": [
+            "max-age=0, private, must-revalidate"
+          ],
+          "Content-Security-Policy-Report-Only": [
+            "default-src 'self' https:; font-src 'self' https: data:; img-src 'self' https: data:; object-src 'none'; media-src 'self' https: blob:; script-src 'self' https: 'strict-dynamic' 'nonce-a369c0e0eedebc2914b147eb31eeee87'; style-src 'self' https: 'unsafe-inline'; connect-src 'self' https: wss:; frame-ancestors 'self'; base-uri 'none'; report-uri https://csp-report.browser-intake-datadoghq.eu/api/v2/logs?dd-api-key=pub7dcbc8d08b4cd1dd6d37b5500bb63929&dd-evp-origin=content-security-policy&ddsource=csp-report&ddtags=service%3Apinpoint_production%2Cenv%3Aproduction"
+          ],
+          "Set-Cookie": [
+            "_pinpoint_session=AEmyZdcjJT27SpRUOA0gC8E5V5m8dTxxzmTq7MAH6uiXoIK3noPbx1aT9pHcLiD7n8MJ%2BbrBqHDB7GeKV3gNO1NEbHDymykw7SJWVUCKJ5b7sz7iCOPIHijjasvo8j1K%2B5XdLZPmkjTIFxSMzHLLL2bdC3LG5FApPceatUa2eXtP1gEQ7GiyzpYeHTw%2BSs4U3vFBu%2B3QYlZe0hIQf3bTZ53bQe7p4fkJEfRVS66yVPJkWXI7Dy3U1xiK3mxN3bn%2BmNJF--gkFzkhF1J5BL01A5--Ip4aLXc2sRSEqDiNnwNreQ%3D%3D; domain=.pinpointhq.com; path=/; expires=Wed, 14 May 2025 05:10:21 GMT; secure; HttpOnly; SameSite=None"
+          ],
+          "X-Request-Id": [
+            "bc978404-7418-41b1-88f9-b80ba1ae8663"
+          ],
+          "X-Runtime": [
+            "0.109757"
+          ],
+          "Strict-Transport-Security": [
+            "max-age=31536000; includeSubDomains"
+          ],
+          "X-Powered-By": [
+            "cloud66"
+          ]
+        },
+        "body": {
+          "encoding": "UTF-8",
+          "string": "{\"data\":{\"id\":\"5204382\",\"type\":\"comments\",\"attributes\":{\"body_text\":\"This is a test comment\",\"commentable_id\":\"8863860\",\"commentable_type\":\"Application\",\"created_at\":\"2025-05-13T17:10:21+00:00\",\"private_comment\":false,\"updated_at\":\"2025-05-13T17:10:21+00:00\",\"user_id\":\"95960\"},\"relationships\":{\"user\":{\"meta\":{\"included\":false}},\"commentable\":{\"data\":{\"type\":\"applications\",\"id\":\"8863860\"}}}},\"included\":[{\"id\":\"8863860\",\"type\":\"applications\",\"attributes\":{\"created_at\":\"2024-01-30T21:17:38+00:00\",\"updated_at\":\"2024-02-19T16:18:16+00:00\",\"candidate_id\":\"6909495\",\"hired_at\":null,\"internal_candidate\":true,\"job_id\":\"174770\",\"locale\":\"en\",\"stage_id\":\"1539046\",\"rejected_at\":null,\"phone_iso2\":\"US\",\"start_on\":null,\"is_demo\":true,\"first_name\":\"Kurt\",\"last_name\":\"Russel\",\"email\":\"kurt.russel@pinpoint.dev\",\"phone\":\"+18145968185\",\"date_of_birth\":\"1989-05-22\",\"linkedin_url\":null,\"summary\":\"This is an example application designed to help demonstrate Pinpoint to the team at Developer Acme. Please completely disregard this application as it is for demonstrative purposes only and will be automatically deleted in due course.\",\"address1\":\"4508 Celestina Bridge\",\"address2\":\"Kilback Square\",\"town\":\"West Arnita\",\"country\":\"Algeria\",\"postcode\":\"77869-8285\",\"preferred_pronouns\":\"(She/They)\",\"channel_source\":\"Indeed\",\"country_code\":\"DZ\",\"country_code_alpha3\":\"DZA\",\"country_name\":\"Algeria\",\"full_name\":\"Kurt Russel\",\"national_identifier\":null,\"channel\":\"job_board\",\"concealed\":false,\"applied_stage_at\":null,\"review_stage_at\":null,\"ta_screen_stage_at\":null,\"group_session_stage_at\":null,\"submitted_to_hiring_manager_stage_at\":null,\"hiring_manager_interview_stage_at\":null,\"assessment_stage_stage_at\":null,\"skills_assessment_stage_at\":null,\"live_assessment_interview_stage_at\":null,\"onsite_virtual_interview_stage_at\":null,\"final_interview_stage_at\":null,\"interview_stage_at\":null,\"offer_stage_at\":null,\"initiate_first_advantage_background_check_stage_at\":null},\"relationships\":{\"job\":{\"meta\":{\"included\":false}},\"stage\":{\"meta\":{\"included\":false}},\"candidate\":{\"meta\":{\"included\":false}},\"onboarding_application\":{\"meta\":{\"included\":false}},\"offers\":{\"meta\":{\"included\":false}},\"answers\":{\"meta\":{\"included\":false}},\"custom_attributes\":{\"meta\":{\"included\":false}},\"structured_section_responses\":{\"meta\":{\"included\":false}},\"scorecard_ratings\":{\"meta\":{\"included\":false}},\"scorecard_notes\":{\"meta\":{\"included\":false}},\"scorecard_answers\":{\"meta\":{\"included\":false}},\"comments\":{\"meta\":{\"included\":false}}}}],\"meta\":{}}"
+        }
+      },
+      "recorded_at": "Tue, 13 May 2025 17:10:21 GMT"
+    }
+  ],
+  "recorded_with": "VCR 6.3.1"
+}

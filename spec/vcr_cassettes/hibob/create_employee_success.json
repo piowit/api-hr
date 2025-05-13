@@ -1,0 +1,93 @@
+{
+  "http_interactions": [
+    {
+      "request": {
+        "method": "post",
+        "uri": "https://api.hibob.com/v1/people",
+        "body": {
+          "encoding": "UTF-8",
+          "string": "{\"firstName\":\"Piotr\",\"surname\":\"Witek\",\"email\":\"test_piotr_witek@pinpoint.dev\",\"work\":{\"site\":\"New York (Demo)\",\"startDate\":\"2025-06-01\"}}"
+        },
+        "headers": {
+          "Accept": [
+            "application/json"
+          ],
+          "Content-Type": [
+            "application/json"
+          ],
+          "Accept-Encoding": [
+            "gzip;q=1.0,deflate;q=0.6,identity;q=0.3"
+          ],
+          "User-Agent": [
+            "Ruby"
+          ],
+          "Authorization": [
+            "<API_KEY>"
+          ]
+        }
+      },
+      "response": {
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "headers": {
+          "Date": [
+            "Tue, 13 May 2025 17:07:52 GMT"
+          ],
+          "Content-Type": [
+            "application/json"
+          ],
+          "Content-Length": [
+            "3917"
+          ],
+          "Connection": [
+            "keep-alive"
+          ],
+          "Referrer-Policy": [
+            "origin-when-cross-origin, strict-origin-when-cross-origin"
+          ],
+          "Vary": [
+            "Accept-Encoding"
+          ],
+          "X-Content-Type-Options": [
+            "nosniff"
+          ],
+          "X-Permitted-Cross-Domain-Policies": [
+            "master-only"
+          ],
+          "X-Ratelimit-Limit": [
+            "50"
+          ],
+          "X-Ratelimit-Remaining": [
+            "49"
+          ],
+          "X-Ratelimit-Reset": [
+            "1747156080"
+          ],
+          "X-Xss-Protection": [
+            "1; mode=block"
+          ],
+          "Cf-Cache-Status": [
+            "DYNAMIC"
+          ],
+          "Strict-Transport-Security": [
+            "max-age=15552000"
+          ],
+          "Server": [
+            "cloudflare"
+          ],
+          "Cf-Ray": [
+            "93f3c1285aefeed5-WAW"
+          ]
+        },
+        "body": {
+          "encoding": "ASCII-8BIT",
+          "string": "{\"fullName\":\"Piotr Witek\",\"creationDate\":\"2025-05-13\",\"displayName\":\"Piotr Witek\",\"payroll\":{\"additionalPensionContribution\":null,\"timeSinceLastSalaryChange\":null,\"salary\":{\"monthlyPayment\":null,\"payPeriod\":null,\"yearlyPayment\":null,\"payment\":{\"currency\":null},\"activeEffectiveDate\":null,\"payFrequency\":null},\"taxCode\":null,\"entitlement\":{\"Season ticket loans\":{\"amount\":null},\"Cycle to work\":{\"amount\":null},\"Company Car\":{\"amount\":null},\"Childcare vouchers\":{\"amount\":null},\"Lunch vouchers\":{\"amount\":null}},\"deduction\":{\"Season ticket loans\":{\"amount\":null},\"Cycle to work\":{\"amount\":null},\"Company Car\":{\"amount\":null},\"Childcare vouchers\":{\"amount\":null},\"Lunch vouchers\":{\"amount\":null}},\"employment\":{\"hoursInDayNotWorked\":9,\"standardWorkingPattern\":null,\"fte\":100,\"type\":null,\"flsaCode\":null,\"actualWorkingPattern\":{\"workingPatternType\":\"hourly\",\"days\":{\"sunday\":0,\"tuesday\":9,\"wednesday\":9,\"monday\":9,\"friday\":9,\"thursday\":9,\"saturday\":0},\"hoursPerDay\":9,\"workingPatternId\":363430},\"contract\":\"Full time\",\"calendarId\":null,\"salaryPayType\":null,\"personalWorkingPatternType\":null,\"workingPattern\":null,\"activeEffectiveDate\":\"2025-06-01\",\"weeklyHours\":45,\"siteWorkingPattern\":{\"workingPatternType\":\"hourly\",\"days\":{\"sunday\":0,\"tuesday\":9,\"wednesday\":9,\"monday\":9,\"friday\":9,\"thursday\":9,\"saturday\":0},\"hoursPerDay\":9,\"workingPatternId\":363430}},\"variable\":{\"Executive bonus\":{\"companyPercent\":null,\"amount\":null,\"paymentPeriod\":null,\"individualPercent\":null,\"departmentPercent\":null},\"Bonus\":{\"companyPercent\":null,\"amount\":null,\"paymentPeriod\":null,\"individualPercent\":null,\"departmentPercent\":null},\"Commission\":{\"companyPercent\":null,\"amount\":null,\"paymentPeriod\":null,\"individualPercent\":null,\"departmentPercent\":null}}},\"personal\":{\"communication\":{\"skypeUsername\":null,\"slackUsername\":null}},\"state\":\"uninvited\",\"creationDateTime\":\"2025-05-13T17:07:51.939699\",\"work\":{\"shortStartDate\":\"06-01\",\"startDate\":\"2025-06-01\",\"manager\":null,\"workPhone\":null,\"tenureDuration\":null,\"durationOfEmployment\":null,\"reportsToIdInCompany\":null,\"employeeIdInCompany\":null,\"reportsTo\":null,\"workMobile\":null,\"indirectReports\":null,\"siteId\":2474159,\"department\":null,\"tenureDurationYears\":0,\"tenureYears\":null,\"isManager\":false,\"title\":null,\"site\":\"New York (Demo)\",\"originalStartDate\":\"2025-06-01\",\"activeEffectiveDate\":\"2025-06-01\",\"directReports\":null,\"workChangeType\":\"New Employee\",\"secondLevelManager\":null,\"daysOfPreviousService\":0,\"yearsOfService\":0},\"employee\":{\"orgLevel\":null,\"payrollManager\":null,\"hrbp\":null,\"itAdmin\":null,\"jobLevelId\":null,\"buddy\":null,\"positionOpeningId\":null},\"temporaryAddress\":{\"city\":null,\"line2\":null,\"country\":null,\"line1\":null,\"usaState\":null,\"postCode\":null},\"secondName\":null,\"avatarUrl\":null,\"about\":{\"foodPreferences\":[],\"socialData\":{\"linkedin\":null,\"twitter\":null,\"facebook\":null},\"superpowers\":[],\"hobbies\":[],\"about\":null,\"avatar\":\"https://media-process.hibob.com/image/upload/b_rgb:F1A168/co_white,l_text:Arial_50_bold:PW,g_center/hibob/default-avatar/transparent_avatar.png?token=X19jbGRfdG9rZW5fXz1leHA9NDgzNDYyODAxNH5hY2w9KiUyZmhpYm9iJTJmZGVmYXVsdC1hdmF0YXIlMmZ0cmFuc3BhcmVudF9hdmF0YXIucG5nKn5obWFjPThlYWExNDdjOWEzNWQwZjg3ZmQ1YmJkZTRiYTA4ZjE1YzExZjYzNWQxMmVkNzRmZGE1NmIwZDU5MDg4YTJmOGE=&vendor=cloudinary\"},\"actualPayment\":{\"amount\":null,\"change\":{\"changedBy\":null,\"reason\":null},\"payDate\":null,\"payType\":null},\"companyId\":631640,\"email\":\"test_piotr_witek@pinpoint.dev\",\"surname\":\"Witek\",\"home\":{\"mobilePhone\":null,\"privateEmail\":null,\"privatePhone\":null},\"coverImageUrl\":\"https://media-process.hibob.com/image/upload/v1/hibob/public-image/cover/white_default_cover_image.png?token=X19jbGRfdG9rZW5fXz1leHA9NDg4Njk4NzI4M35hY2w9KiUyZmhpYm9iJTJmcHVibGljLWltYWdlJTJmY292ZXIlMmZ3aGl0ZV9kZWZhdWx0X2NvdmVyX2ltYWdlLnBuZyp+aG1hYz03MWYyMTM2YWYxMWE2MjI0OGJiNDIwMmMwY2ZiNzQ5OGViOTk0NjJjODBjNmQ3MTQ3NzkwYWE4Y2UwOGExMmQw&vendor=cloudinary\",\"id\":\"3631730814447780035\",\"firstName\":\"Piotr\"}"
+        }
+      },
+      "recorded_at": "Tue, 13 May 2025 17:07:52 GMT"
+    }
+  ],
+  "recorded_with": "VCR 6.3.1"
+}

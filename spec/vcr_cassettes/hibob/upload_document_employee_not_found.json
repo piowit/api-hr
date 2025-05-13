@@ -1,0 +1,93 @@
+{
+  "http_interactions": [
+    {
+      "request": {
+        "method": "post",
+        "uri": "https://api.hibob.com/v1/docs/people/nonexistent/shared",
+        "body": {
+          "encoding": "UTF-8",
+          "string": "{\"name\":\"Resume.pdf\",\"url\":\"https://example.com/files/resume.pdf\",\"visibility\":\"employee\"}"
+        },
+        "headers": {
+          "Accept": [
+            "application/json"
+          ],
+          "Content-Type": [
+            "application/json"
+          ],
+          "Accept-Encoding": [
+            "gzip;q=1.0,deflate;q=0.6,identity;q=0.3"
+          ],
+          "User-Agent": [
+            "Ruby"
+          ],
+          "Authorization": [
+            "<API_KEY>"
+          ]
+        }
+      },
+      "response": {
+        "status": {
+          "code": 403,
+          "message": "Forbidden"
+        },
+        "headers": {
+          "Date": [
+            "Tue, 13 May 2025 17:01:18 GMT"
+          ],
+          "Content-Type": [
+            "application/json"
+          ],
+          "Content-Length": [
+            "265"
+          ],
+          "Connection": [
+            "keep-alive"
+          ],
+          "App-Error": [
+            "Not authorized to create on shared folder. BobEmployee(companyId=631640, employeeId=<HIBOB_USER>, impersonator=null)"
+          ],
+          "Content-Security-Policy": [
+            "default-src 'self'; script-src 'self' 'unsafe-inline' ; style-src 'self' 'unsafe-inline'"
+          ],
+          "Referrer-Policy": [
+            "origin-when-cross-origin, strict-origin-when-cross-origin"
+          ],
+          "Vary": [
+            "Accept-Encoding"
+          ],
+          "X-Content-Type-Options": [
+            "nosniff"
+          ],
+          "X-Frame-Options": [
+            "DENY"
+          ],
+          "X-Permitted-Cross-Domain-Policies": [
+            "master-only"
+          ],
+          "X-Xss-Protection": [
+            "1; mode=block"
+          ],
+          "Cf-Cache-Status": [
+            "DYNAMIC"
+          ],
+          "Strict-Transport-Security": [
+            "max-age=15552000"
+          ],
+          "Server": [
+            "cloudflare"
+          ],
+          "Cf-Ray": [
+            "93f3b78befbaeecd-WAW"
+          ]
+        },
+        "body": {
+          "encoding": "ASCII-8BIT",
+          "string": "{\"key\":\"Not authorized to create on shared folder. BobEmployee(companyId=631640, employeeId=<HIBOB_USER>, impersonator=null)\",\"error\":\"Not authorized to create on shared folder. BobEmployee(companyId=631640, employeeId=<HIBOB_USER>, impersonator=null)\",\"args\":[]}"
+        }
+      },
+      "recorded_at": "Tue, 13 May 2025 17:01:18 GMT"
+    }
+  ],
+  "recorded_with": "VCR 6.3.1"
+}

@@ -1,0 +1,366 @@
+{
+  "http_interactions": [
+    {
+      "request": {
+        "method": "get",
+        "uri": "https://developers-test.pinpointhq.com/api/v1/applications/8863861?extra_fields%5Bapplications%5D=attachments",
+        "body": {
+          "encoding": "US-ASCII",
+          "string": ""
+        },
+        "headers": {
+          "X-Api-Key": [
+            "<PINPOINT_API_KEY>"
+          ],
+          "Accept": [
+            "application/json"
+          ],
+          "Content-Type": [
+            "application/json"
+          ],
+          "Accept-Encoding": [
+            "gzip;q=1.0,deflate;q=0.6,identity;q=0.3"
+          ],
+          "User-Agent": [
+            "Ruby"
+          ]
+        }
+      },
+      "response": {
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "headers": {
+          "Date": [
+            "Tue, 13 May 2025 16:59:48 GMT"
+          ],
+          "Content-Type": [
+            "application/vnd.api+json; charset=utf-8"
+          ],
+          "Transfer-Encoding": [
+            "chunked"
+          ],
+          "X-Frame-Options": [
+            "SAMEORIGIN"
+          ],
+          "X-Xss-Protection": [
+            "1; mode=block"
+          ],
+          "X-Content-Type-Options": [
+            "nosniff"
+          ],
+          "X-Download-Options": [
+            "noopen"
+          ],
+          "X-Permitted-Cross-Domain-Policies": [
+            "none"
+          ],
+          "Referrer-Policy": [
+            "strict-origin-when-cross-origin"
+          ],
+          "X-Pinpoint-Version": [
+            "ce53e7eea65bce3cd4d0807fd14d60c604511758-1747153554"
+          ],
+          "Etag": [
+            "W/\"d53fdc31faf808f111b7326e331659c1\""
+          ],
+          "Cache-Control": [
+            "max-age=0, private, must-revalidate"
+          ],
+          "Content-Security-Policy-Report-Only": [
+            "default-src 'self' https:; font-src 'self' https: data:; img-src 'self' https: data:; object-src 'none'; media-src 'self' https: blob:; script-src 'self' https: 'strict-dynamic' 'nonce-8f2a56c6c71631f4c8bf417e4cd6c609'; style-src 'self' https: 'unsafe-inline'; connect-src 'self' https: wss:; frame-ancestors 'self'; base-uri 'none'; report-uri https://csp-report.browser-intake-datadoghq.eu/api/v2/logs?dd-api-key=pub7dcbc8d08b4cd1dd6d37b5500bb63929&dd-evp-origin=content-security-policy&ddsource=csp-report&ddtags=service%3Apinpoint_production%2Cenv%3Aproduction"
+          ],
+          "Set-Cookie": [
+            "_pinpoint_session=P59kpMEa1xQ8Aqgb51xmNMhJyag3OAjS671hz0uiMT58lUypYac6fPqt34DNIXQb3iPnkU%2FNQfHMQ0GssCSto3lxl6SzmohbjFOkRpBtMXNlRBj26dGUymltM%2Fw0BMiCVlpRr2ge3uw6ii%2BNNLYNAPAf3Kl6TTLWZEvAB2DcIs8X1wc%2BF3tnPEizOzUBf1jjMVWs7XXDlbQmsFyO871C--TUdYtfDQ2YiEouWo--W%2BjPkL%2FQTS5jj923agyICw%3D%3D; domain=.pinpointhq.com; path=/; expires=Wed, 14 May 2025 04:59:48 GMT; secure; HttpOnly; SameSite=None"
+          ],
+          "X-Request-Id": [
+            "4a226d0c-a177-4537-a328-1db4194ea855"
+          ],
+          "X-Runtime": [
+            "0.082304"
+          ],
+          "Strict-Transport-Security": [
+            "max-age=31536000; includeSubDomains"
+          ],
+          "X-Powered-By": [
+            "cloud66"
+          ]
+        },
+        "body": {
+          "encoding": "UTF-8",
+          "string": "{\"data\":{\"id\":\"8863861\",\"type\":\"applications\",\"attributes\":{\"created_at\":\"2024-02-01T06:44:38+00:00\",\"updated_at\":\"2024-02-19T16:19:20+00:00\",\"candidate_id\":\"6909496\",\"hired_at\":null,\"internal_candidate\":true,\"job_id\":\"174770\",\"locale\":\"en\",\"stage_id\":\"1539046\",\"rejected_at\":null,\"phone_iso2\":\"CO\",\"start_on\":null,\"is_demo\":true,\"first_name\":\"Maddie\",\"last_name\":\"Hudson\",\"email\":\"maddie.hudson@pinpoint.dev\",\"phone\":\"+5755792044207\",\"date_of_birth\":\"1982-01-03\",\"linkedin_url\":null,\"summary\":\"This is an example application designed to help demonstrate Pinpoint to the team at Developer Acme. Please completely disregard this application as it is for demonstrative purposes only and will be automatically deleted in due course.\",\"address1\":\"97980 Richie Estates\",\"address2\":\"Wyman Parkways\",\"town\":\"North Cole\",\"country\":\"Montenegro\",\"postcode\":\"00089\",\"preferred_pronouns\":\"(She/They)\",\"channel_source\":\"Employee referral\",\"country_code\":\"ME\",\"country_code_alpha3\":\"MNE\",\"country_name\":\"Montenegro\",\"full_name\":\"Maddie Hudson\",\"national_identifier\":null,\"channel\":\"event\",\"concealed\":false,\"attachments\":[{\"context\":\"cv\",\"filename\":\"tom_hacquoil.pdf\",\"url\":\"https://pinpointhq.com/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBM0thK0E9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--f381b92262aa1a8f2f759c8da39ca4b874819f4d/tom_hacquoil.pdf\"},{\"context\":\"pdf_cv\",\"filename\":\"tom_hacquoil.pdf\",\"url\":\"https://pinpointhq.com/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBM0thK0E9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--f381b92262aa1a8f2f759c8da39ca4b874819f4d/tom_hacquoil.pdf\"}],\"applied_stage_at\":null,\"review_stage_at\":null,\"ta_screen_stage_at\":null,\"group_session_stage_at\":null,\"submitted_to_hiring_manager_stage_at\":null,\"hiring_manager_interview_stage_at\":null,\"assessment_stage_stage_at\":null,\"skills_assessment_stage_at\":null,\"live_assessment_interview_stage_at\":null,\"onsite_virtual_interview_stage_at\":null,\"final_interview_stage_at\":null,\"interview_stage_at\":null,\"offer_stage_at\":null,\"initiate_first_advantage_background_check_stage_at\":null},\"relationships\":{\"job\":{\"meta\":{\"included\":false}},\"stage\":{\"meta\":{\"included\":false}},\"candidate\":{\"meta\":{\"included\":false}},\"onboarding_application\":{\"meta\":{\"included\":false}},\"offers\":{\"meta\":{\"included\":false}},\"answers\":{\"meta\":{\"included\":false}},\"custom_attributes\":{\"meta\":{\"included\":false}},\"structured_section_responses\":{\"meta\":{\"included\":false}},\"scorecard_ratings\":{\"meta\":{\"included\":false}},\"scorecard_notes\":{\"meta\":{\"included\":false}},\"scorecard_answers\":{\"meta\":{\"included\":false}},\"comments\":{\"meta\":{\"included\":false}}}},\"meta\":{}}"
+        }
+      },
+      "recorded_at": "Tue, 13 May 2025 16:59:47 GMT"
+    },
+    {
+      "request": {
+        "method": "post",
+        "uri": "https://api.hibob.com/v1/people",
+        "body": {
+          "encoding": "UTF-8",
+          "string": "{\"firstName\":\"Maddie\",\"surname\":\"Hudson\",\"email\":\"maddie.hudson@pinpoint.dev\",\"work\":{\"site\":\"New York (Demo)\",\"startDate\":\"2025-06-01\"}}"
+        },
+        "headers": {
+          "Accept": [
+            "application/json"
+          ],
+          "Content-Type": [
+            "application/json"
+          ],
+          "Accept-Encoding": [
+            "gzip;q=1.0,deflate;q=0.6,identity;q=0.3"
+          ],
+          "User-Agent": [
+            "Ruby"
+          ],
+          "Authorization": [
+            "<HIBOB_AUTH_TOKEN>"
+          ]
+        }
+      },
+      "response": {
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "headers": {
+          "Date": [
+            "Tue, 13 May 2025 16:59:48 GMT"
+          ],
+          "Content-Type": [
+            "application/json"
+          ],
+          "Content-Length": [
+            "3920"
+          ],
+          "Connection": [
+            "keep-alive"
+          ],
+          "Referrer-Policy": [
+            "origin-when-cross-origin, strict-origin-when-cross-origin"
+          ],
+          "Vary": [
+            "Accept-Encoding"
+          ],
+          "X-Content-Type-Options": [
+            "nosniff"
+          ],
+          "X-Permitted-Cross-Domain-Policies": [
+            "master-only"
+          ],
+          "X-Ratelimit-Limit": [
+            "50"
+          ],
+          "X-Ratelimit-Remaining": [
+            "49"
+          ],
+          "X-Ratelimit-Reset": [
+            "1747155600"
+          ],
+          "X-Xss-Protection": [
+            "1; mode=block"
+          ],
+          "Cf-Cache-Status": [
+            "DYNAMIC"
+          ],
+          "Strict-Transport-Security": [
+            "max-age=15552000"
+          ],
+          "Server": [
+            "cloudflare"
+          ],
+          "Cf-Ray": [
+            "93f3b55a4b69352d-WAW"
+          ]
+        },
+        "body": {
+          "encoding": "ASCII-8BIT",
+          "string": "{\"fullName\":\"Maddie Hudson\",\"creationDate\":\"2025-05-13\",\"displayName\":\"Maddie Hudson\",\"payroll\":{\"additionalPensionContribution\":null,\"timeSinceLastSalaryChange\":null,\"salary\":{\"monthlyPayment\":null,\"payPeriod\":null,\"yearlyPayment\":null,\"payment\":{\"currency\":null},\"activeEffectiveDate\":null,\"payFrequency\":null},\"taxCode\":null,\"entitlement\":{\"Season ticket loans\":{\"amount\":null},\"Cycle to work\":{\"amount\":null},\"Company Car\":{\"amount\":null},\"Childcare vouchers\":{\"amount\":null},\"Lunch vouchers\":{\"amount\":null}},\"deduction\":{\"Season ticket loans\":{\"amount\":null},\"Cycle to work\":{\"amount\":null},\"Company Car\":{\"amount\":null},\"Childcare vouchers\":{\"amount\":null},\"Lunch vouchers\":{\"amount\":null}},\"employment\":{\"hoursInDayNotWorked\":9,\"standardWorkingPattern\":null,\"fte\":100,\"type\":null,\"flsaCode\":null,\"actualWorkingPattern\":{\"workingPatternType\":\"hourly\",\"days\":{\"sunday\":0,\"tuesday\":9,\"wednesday\":9,\"monday\":9,\"friday\":9,\"thursday\":9,\"saturday\":0},\"hoursPerDay\":9,\"workingPatternId\":363430},\"contract\":\"Full time\",\"calendarId\":null,\"salaryPayType\":null,\"personalWorkingPatternType\":null,\"workingPattern\":null,\"activeEffectiveDate\":\"2025-06-01\",\"weeklyHours\":45,\"siteWorkingPattern\":{\"workingPatternType\":\"hourly\",\"days\":{\"sunday\":0,\"tuesday\":9,\"wednesday\":9,\"monday\":9,\"friday\":9,\"thursday\":9,\"saturday\":0},\"hoursPerDay\":9,\"workingPatternId\":363430}},\"variable\":{\"Executive bonus\":{\"companyPercent\":null,\"amount\":null,\"paymentPeriod\":null,\"individualPercent\":null,\"departmentPercent\":null},\"Bonus\":{\"companyPercent\":null,\"amount\":null,\"paymentPeriod\":null,\"individualPercent\":null,\"departmentPercent\":null},\"Commission\":{\"companyPercent\":null,\"amount\":null,\"paymentPeriod\":null,\"individualPercent\":null,\"departmentPercent\":null}}},\"personal\":{\"communication\":{\"skypeUsername\":null,\"slackUsername\":null}},\"state\":\"uninvited\",\"creationDateTime\":\"2025-05-13T16:59:48.418346\",\"work\":{\"shortStartDate\":\"06-01\",\"startDate\":\"2025-06-01\",\"manager\":null,\"workPhone\":null,\"tenureDuration\":null,\"durationOfEmployment\":null,\"reportsToIdInCompany\":null,\"employeeIdInCompany\":null,\"reportsTo\":null,\"workMobile\":null,\"indirectReports\":null,\"siteId\":2474159,\"department\":null,\"tenureDurationYears\":0,\"tenureYears\":null,\"isManager\":false,\"title\":null,\"site\":\"New York (Demo)\",\"originalStartDate\":\"2025-06-01\",\"activeEffectiveDate\":\"2025-06-01\",\"directReports\":null,\"workChangeType\":\"New Employee\",\"secondLevelManager\":null,\"daysOfPreviousService\":0,\"yearsOfService\":0},\"employee\":{\"orgLevel\":null,\"payrollManager\":null,\"hrbp\":null,\"itAdmin\":null,\"jobLevelId\":null,\"buddy\":null,\"positionOpeningId\":null},\"temporaryAddress\":{\"city\":null,\"line2\":null,\"country\":null,\"line1\":null,\"usaState\":null,\"postCode\":null},\"secondName\":null,\"avatarUrl\":null,\"about\":{\"foodPreferences\":[],\"socialData\":{\"linkedin\":null,\"twitter\":null,\"facebook\":null},\"superpowers\":[],\"hobbies\":[],\"about\":null,\"avatar\":\"https://media-process.hibob.com/image/upload/b_rgb:A54D4D/co_white,l_text:Arial_50_bold:MH,g_center/hibob/default-avatar/transparent_avatar.png?token=X19jbGRfdG9rZW5fXz1leHA9NDgzNDYyODAxNH5hY2w9KiUyZmhpYm9iJTJmZGVmYXVsdC1hdmF0YXIlMmZ0cmFuc3BhcmVudF9hdmF0YXIucG5nKn5obWFjPThlYWExNDdjOWEzNWQwZjg3ZmQ1YmJkZTRiYTA4ZjE1YzExZjYzNWQxMmVkNzRmZGE1NmIwZDU5MDg4YTJmOGE=&vendor=cloudinary\"},\"actualPayment\":{\"amount\":null,\"change\":{\"changedBy\":null,\"reason\":null},\"payDate\":null,\"payType\":null},\"companyId\":631640,\"email\":\"maddie.hudson@pinpoint.dev\",\"surname\":\"Hudson\",\"home\":{\"mobilePhone\":null,\"privateEmail\":null,\"privatePhone\":null},\"coverImageUrl\":\"https://media-process.hibob.com/image/upload/v1/hibob/public-image/cover/white_default_cover_image.png?token=X19jbGRfdG9rZW5fXz1leHA9NDg4Njk4NzI4M35hY2w9KiUyZmhpYm9iJTJmcHVibGljLWltYWdlJTJmY292ZXIlMmZ3aGl0ZV9kZWZhdWx0X2NvdmVyX2ltYWdlLnBuZyp+aG1hYz03MWYyMTM2YWYxMWE2MjI0OGJiNDIwMmMwY2ZiNzQ5OGViOTk0NjJjODBjNmQ3MTQ3NzkwYWE4Y2UwOGExMmQw&vendor=cloudinary\",\"id\":\"3631726758354485431\",\"firstName\":\"Maddie\"}"
+        }
+      },
+      "recorded_at": "Tue, 13 May 2025 16:59:48 GMT"
+    },
+    {
+      "request": {
+        "method": "post",
+        "uri": "https://api.hibob.com/v1/docs/people/3631726758354485431/shared",
+        "body": {
+          "encoding": "UTF-8",
+          "string": "{\"name\":\"tom_hacquoil.pdf\",\"url\":\"https://pinpointhq.com/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBM0thK0E9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--f381b92262aa1a8f2f759c8da39ca4b874819f4d/tom_hacquoil.pdf\",\"visibility\":\"employee\"}"
+        },
+        "headers": {
+          "Accept": [
+            "application/json"
+          ],
+          "Content-Type": [
+            "application/json"
+          ],
+          "Accept-Encoding": [
+            "gzip;q=1.0,deflate;q=0.6,identity;q=0.3"
+          ],
+          "User-Agent": [
+            "Ruby"
+          ],
+          "Authorization": [
+            "<HIBOB_AUTH_TOKEN>"
+          ]
+        }
+      },
+      "response": {
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "headers": {
+          "Date": [
+            "Tue, 13 May 2025 16:59:51 GMT"
+          ],
+          "Content-Type": [
+            "application/json"
+          ],
+          "Content-Length": [
+            "477"
+          ],
+          "Connection": [
+            "keep-alive"
+          ],
+          "Content-Security-Policy": [
+            "default-src 'self'; script-src 'self' 'unsafe-inline' ; style-src 'self' 'unsafe-inline'"
+          ],
+          "Referrer-Policy": [
+            "origin-when-cross-origin, strict-origin-when-cross-origin"
+          ],
+          "Vary": [
+            "Accept-Encoding"
+          ],
+          "X-Content-Type-Options": [
+            "nosniff"
+          ],
+          "X-Frame-Options": [
+            "DENY"
+          ],
+          "X-Permitted-Cross-Domain-Policies": [
+            "master-only"
+          ],
+          "X-Xss-Protection": [
+            "1; mode=block"
+          ],
+          "Cf-Cache-Status": [
+            "DYNAMIC"
+          ],
+          "Strict-Transport-Security": [
+            "max-age=15552000"
+          ],
+          "Server": [
+            "cloudflare"
+          ],
+          "Cf-Ray": [
+            "93f3b5604b13021b-WAW"
+          ]
+        },
+        "body": {
+          "encoding": "ASCII-8BIT",
+          "string": "{\"id\":\"23435335\",\"employeeId\":\"3631726758354485431\",\"uploadedById\":\"<HIBOB_USER>\",\"name\":\"tom_hacquoil.pdf\",\"creationDate\":\"2025-05-13T16:59:51.861884\",\"status\":\"Created\",\"tags\":[],\"folderId\":1047097,\"mimeType\":\"application/pdf\",\"fileId\":32101805,\"documentName\":\"tom_hacquoil.pdf\",\"owner\":{\"id\":\"3631726758354485431\"},\"actionRequestDate\":null,\"actionCompleteDate\":null,\"uploadedByDetails\":{\"id\":\"<HIBOB_USER>\",\"impersonatorUserId\":null,\"impersonatorSupportDisplayName\":null}}"
+        }
+      },
+      "recorded_at": "Tue, 13 May 2025 16:59:51 GMT"
+    },
+    {
+      "request": {
+        "method": "post",
+        "uri": "https://developers-test.pinpointhq.com/api/v1/comments",
+        "body": {
+          "encoding": "UTF-8",
+          "string": "{\"data\":{\"type\":\"comments\",\"attributes\":{\"body_text\":\"Record created with ID: 3631726758354485431\"},\"relationships\":{\"commentable\":{\"data\":{\"type\":\"applications\",\"id\":\"8863861\"}}}}}"
+        },
+        "headers": {
+          "X-Api-Key": [
+            "<PINPOINT_API_KEY>"
+          ],
+          "Accept": [
+            "application/json"
+          ],
+          "Content-Type": [
+            "application/json"
+          ],
+          "Accept-Encoding": [
+            "gzip;q=1.0,deflate;q=0.6,identity;q=0.3"
+          ],
+          "User-Agent": [
+            "Ruby"
+          ]
+        }
+      },
+      "response": {
+        "status": {
+          "code": 201,
+          "message": "Created"
+        },
+        "headers": {
+          "Date": [
+            "Tue, 13 May 2025 16:59:52 GMT"
+          ],
+          "Content-Type": [
+            "application/vnd.api+json; charset=utf-8"
+          ],
+          "Transfer-Encoding": [
+            "chunked"
+          ],
+          "X-Frame-Options": [
+            "SAMEORIGIN"
+          ],
+          "X-Xss-Protection": [
+            "1; mode=block"
+          ],
+          "X-Content-Type-Options": [
+            "nosniff"
+          ],
+          "X-Download-Options": [
+            "noopen"
+          ],
+          "X-Permitted-Cross-Domain-Policies": [
+            "none"
+          ],
+          "Referrer-Policy": [
+            "strict-origin-when-cross-origin"
+          ],
+          "X-Pinpoint-Version": [
+            "ce53e7eea65bce3cd4d0807fd14d60c604511758-1747153554"
+          ],
+          "Etag": [
+            "W/\"1b9ac13226cfbcbcd053f229ec4038c0\""
+          ],
+          "Cache-Control": [
+            "max-age=0, private, must-revalidate"
+          ],
+          "Content-Security-Policy-Report-Only": [
+            "default-src 'self' https:; font-src 'self' https: data:; img-src 'self' https: data:; object-src 'none'; media-src 'self' https: blob:; script-src 'self' https: 'strict-dynamic' 'nonce-7c553310b0fcc533a76cb311b7ee0d0f'; style-src 'self' https: 'unsafe-inline'; connect-src 'self' https: wss:; frame-ancestors 'self'; base-uri 'none'; report-uri https://csp-report.browser-intake-datadoghq.eu/api/v2/logs?dd-api-key=pub7dcbc8d08b4cd1dd6d37b5500bb63929&dd-evp-origin=content-security-policy&ddsource=csp-report&ddtags=service%3Apinpoint_production%2Cenv%3Aproduction"
+          ],
+          "Set-Cookie": [
+            "_pinpoint_session=%2BQR16emHFitDOJEXG%2FhhPpOa8lvCThSV7LqNguLPS0g6rqVOKAntb3EpUGeOZkNVu1%2FPk50qPuZl2i%2F3NR1J0X0DZGtG%2Bx7p8If5fAhjUV4jFY0IIdsmpXemh2dsgTgZz9DIWIQ4Vl2w%2B1WY9jKtDnH2hTcSN045Df0O8yaFheI8WXd5mEhv8OLR4yFdQrZwNstvS9FwKCXH4EToZ%2Bt2w643DKS51CshjSDbJuWi4GRHcQZUFPJnMneb5RJ9DNegvU8W--ZKF1YrZscLPRZgwc--CyjaIGhX%2FU0RsJ9wZlWrAw%3D%3D; domain=.pinpointhq.com; path=/; expires=Wed, 14 May 2025 04:59:52 GMT; secure; HttpOnly; SameSite=None"
+          ],
+          "X-Request-Id": [
+            "858bf8a1-5e9c-444b-af58-eeb60a8b47c5"
+          ],
+          "X-Runtime": [
+            "0.215718"
+          ],
+          "Strict-Transport-Security": [
+            "max-age=31536000; includeSubDomains"
+          ],
+          "X-Powered-By": [
+            "cloud66"
+          ]
+        },
+        "body": {
+          "encoding": "UTF-8",
+          "string": "{\"data\":{\"id\":\"5204330\",\"type\":\"comments\",\"attributes\":{\"body_text\":\"Record created with ID: 3631726758354485431\",\"commentable_id\":\"8863861\",\"commentable_type\":\"Application\",\"created_at\":\"2025-05-13T16:59:52+00:00\",\"private_comment\":false,\"updated_at\":\"2025-05-13T16:59:52+00:00\",\"user_id\":\"95960\"},\"relationships\":{\"user\":{\"meta\":{\"included\":false}},\"commentable\":{\"data\":{\"type\":\"applications\",\"id\":\"8863861\"}}}},\"included\":[{\"id\":\"8863861\",\"type\":\"applications\",\"attributes\":{\"created_at\":\"2024-02-01T06:44:38+00:00\",\"updated_at\":\"2024-02-19T16:19:20+00:00\",\"candidate_id\":\"6909496\",\"hired_at\":null,\"internal_candidate\":true,\"job_id\":\"174770\",\"locale\":\"en\",\"stage_id\":\"1539046\",\"rejected_at\":null,\"phone_iso2\":\"CO\",\"start_on\":null,\"is_demo\":true,\"first_name\":\"Maddie\",\"last_name\":\"Hudson\",\"email\":\"maddie.hudson@pinpoint.dev\",\"phone\":\"+5755792044207\",\"date_of_birth\":\"1982-01-03\",\"linkedin_url\":null,\"summary\":\"This is an example application designed to help demonstrate Pinpoint to the team at Developer Acme. Please completely disregard this application as it is for demonstrative purposes only and will be automatically deleted in due course.\",\"address1\":\"97980 Richie Estates\",\"address2\":\"Wyman Parkways\",\"town\":\"North Cole\",\"country\":\"Montenegro\",\"postcode\":\"00089\",\"preferred_pronouns\":\"(She/They)\",\"channel_source\":\"Employee referral\",\"country_code\":\"ME\",\"country_code_alpha3\":\"MNE\",\"country_name\":\"Montenegro\",\"full_name\":\"Maddie Hudson\",\"national_identifier\":null,\"channel\":\"event\",\"concealed\":false,\"applied_stage_at\":null,\"review_stage_at\":null,\"ta_screen_stage_at\":null,\"group_session_stage_at\":null,\"submitted_to_hiring_manager_stage_at\":null,\"hiring_manager_interview_stage_at\":null,\"assessment_stage_stage_at\":null,\"skills_assessment_stage_at\":null,\"live_assessment_interview_stage_at\":null,\"onsite_virtual_interview_stage_at\":null,\"final_interview_stage_at\":null,\"interview_stage_at\":null,\"offer_stage_at\":null,\"initiate_first_advantage_background_check_stage_at\":null},\"relationships\":{\"job\":{\"meta\":{\"included\":false}},\"stage\":{\"meta\":{\"included\":false}},\"candidate\":{\"meta\":{\"included\":false}},\"onboarding_application\":{\"meta\":{\"included\":false}},\"offers\":{\"meta\":{\"included\":false}},\"answers\":{\"meta\":{\"included\":false}},\"custom_attributes\":{\"meta\":{\"included\":false}},\"structured_section_responses\":{\"meta\":{\"included\":false}},\"scorecard_ratings\":{\"meta\":{\"included\":false}},\"scorecard_notes\":{\"meta\":{\"included\":false}},\"scorecard_answers\":{\"meta\":{\"included\":false}},\"comments\":{\"meta\":{\"included\":false}}}}],\"meta\":{}}"
+        }
+      },
+      "recorded_at": "Tue, 13 May 2025 16:59:52 GMT"
+    }
+  ],
+  "recorded_with": "VCR 6.3.1"
+}

@@ -1,0 +1,93 @@
+{
+  "http_interactions": [
+    {
+      "request": {
+        "method": "post",
+        "uri": "https://api.hibob.com/v1/people",
+        "body": {
+          "encoding": "UTF-8",
+          "string": "{\"firstName\":\"Jane\"}"
+        },
+        "headers": {
+          "Accept": [
+            "application/json"
+          ],
+          "Content-Type": [
+            "application/json"
+          ],
+          "Accept-Encoding": [
+            "gzip;q=1.0,deflate;q=0.6,identity;q=0.3"
+          ],
+          "User-Agent": [
+            "Ruby"
+          ],
+          "Authorization": [
+            "<API_KEY>"
+          ]
+        }
+      },
+      "response": {
+        "status": {
+          "code": 400,
+          "message": "Bad Request"
+        },
+        "headers": {
+          "Date": [
+            "Tue, 13 May 2025 17:03:45 GMT"
+          ],
+          "Content-Type": [
+            "application/json"
+          ],
+          "Content-Length": [
+            "149"
+          ],
+          "Connection": [
+            "keep-alive"
+          ],
+          "Referrer-Policy": [
+            "origin-when-cross-origin, strict-origin-when-cross-origin"
+          ],
+          "Vary": [
+            "Accept-Encoding"
+          ],
+          "X-Content-Type-Options": [
+            "nosniff"
+          ],
+          "X-Permitted-Cross-Domain-Policies": [
+            "master-only"
+          ],
+          "X-Ratelimit-Limit": [
+            "50"
+          ],
+          "X-Ratelimit-Remaining": [
+            "48"
+          ],
+          "X-Ratelimit-Reset": [
+            "1747155840"
+          ],
+          "X-Xss-Protection": [
+            "1; mode=block"
+          ],
+          "Cf-Cache-Status": [
+            "DYNAMIC"
+          ],
+          "Strict-Transport-Security": [
+            "max-age=15552000"
+          ],
+          "Server": [
+            "cloudflare"
+          ],
+          "Cf-Ray": [
+            "93f3bb23ca0c3bc7-WAW"
+          ]
+        },
+        "body": {
+          "encoding": "ASCII-8BIT",
+          "string": "{\"error\":\"String value expected\",\"errors\":{\"email\":\"String value expected\",\"surname\":\"String value expected\",\"work.startDate\":\"Date value expected\"}}"
+        }
+      },
+      "recorded_at": "Tue, 13 May 2025 17:03:45 GMT"
+    }
+  ],
+  "recorded_with": "VCR 6.3.1"
+}

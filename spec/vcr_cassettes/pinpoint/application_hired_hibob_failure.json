@@ -1,0 +1,66 @@
+{
+  "http_interactions": [
+    {
+      "request": {
+        "method": "get",
+        "uri": "https://developers-test.pinpointhq.com/api/v1/applications/9999999999?extra_fields%5Bapplications%5D=attachments",
+        "body": {
+          "encoding": "US-ASCII",
+          "string": ""
+        },
+        "headers": {
+          "X-Api-Key": [
+            "<PINPOINT_API_KEY>"
+          ],
+          "Accept": [
+            "application/json"
+          ],
+          "Content-Type": [
+            "application/json"
+          ],
+          "Accept-Encoding": [
+            "gzip;q=1.0,deflate;q=0.6,identity;q=0.3"
+          ],
+          "User-Agent": [
+            "Ruby"
+          ]
+        }
+      },
+      "response": {
+        "status": {
+          "code": 404,
+          "message": "Not Found"
+        },
+        "headers": {
+          "Date": [
+            "Tue, 13 May 2025 16:53:39 GMT"
+          ],
+          "Content-Type": [
+            "application/vnd.api+json; charset=UTF-8"
+          ],
+          "Content-Length": [
+            "106"
+          ],
+          "X-Request-Id": [
+            "d01a5ec7-5421-4f0f-9d1b-c65f4ef559b8"
+          ],
+          "X-Runtime": [
+            "0.266764"
+          ],
+          "Strict-Transport-Security": [
+            "max-age=31536000; includeSubDomains"
+          ],
+          "X-Powered-By": [
+            "cloud66"
+          ]
+        },
+        "body": {
+          "encoding": "UTF-8",
+          "string": "{\"errors\":[{\"code\":\"not_found\",\"status\":\"404\",\"title\":\"Not Found\",\"detail\":\"Specified Record Not Found\"}]}"
+        }
+      },
+      "recorded_at": "Tue, 13 May 2025 16:53:38 GMT"
+    }
+  ],
+  "recorded_with": "VCR 6.3.1"
+}

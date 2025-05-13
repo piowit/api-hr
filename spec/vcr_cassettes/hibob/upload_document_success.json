@@ -1,0 +1,90 @@
+{
+  "http_interactions": [
+    {
+      "request": {
+        "method": "post",
+        "uri": "https://api.hibob.com/v1/docs/people/3631726758354485431/shared",
+        "body": {
+          "encoding": "UTF-8",
+          "string": "{\"name\":\"tom_hacquoil.pdf\",\"url\":\"https://pinpointhq.com/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBM0thK0E9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--f381b92262aa1a8f2f759c8da39ca4b874819f4d/tom_hacquoil.pdf\",\"visibility\":\"employee\"}"
+        },
+        "headers": {
+          "Accept": [
+            "application/json"
+          ],
+          "Content-Type": [
+            "application/json"
+          ],
+          "Accept-Encoding": [
+            "gzip;q=1.0,deflate;q=0.6,identity;q=0.3"
+          ],
+          "User-Agent": [
+            "Ruby"
+          ],
+          "Authorization": [
+            "<API_KEY>"
+          ]
+        }
+      },
+      "response": {
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "headers": {
+          "Date": [
+            "Tue, 13 May 2025 17:04:59 GMT"
+          ],
+          "Content-Type": [
+            "application/json"
+          ],
+          "Content-Length": [
+            "489"
+          ],
+          "Connection": [
+            "keep-alive"
+          ],
+          "Content-Security-Policy": [
+            "default-src 'self'; script-src 'self' 'unsafe-inline' ; style-src 'self' 'unsafe-inline'"
+          ],
+          "Referrer-Policy": [
+            "origin-when-cross-origin, strict-origin-when-cross-origin"
+          ],
+          "Vary": [
+            "Accept-Encoding"
+          ],
+          "X-Content-Type-Options": [
+            "nosniff"
+          ],
+          "X-Frame-Options": [
+            "DENY"
+          ],
+          "X-Permitted-Cross-Domain-Policies": [
+            "master-only"
+          ],
+          "X-Xss-Protection": [
+            "1; mode=block"
+          ],
+          "Cf-Cache-Status": [
+            "DYNAMIC"
+          ],
+          "Strict-Transport-Security": [
+            "max-age=15552000"
+          ],
+          "Server": [
+            "cloudflare"
+          ],
+          "Cf-Ray": [
+            "93f3bcee1b3deeb1-WAW"
+          ]
+        },
+        "body": {
+          "encoding": "ASCII-8BIT",
+          "string": "{\"id\":\"23435373\",\"employeeId\":\"3631726758354485431\",\"uploadedById\":\"<HIBOB_USER>\",\"name\":\"tom_hacquoil.pdf\",\"creationDate\":\"2025-05-13T17:04:59.946259\",\"status\":\"Created\",\"tags\":[],\"folderId\":1047097,\"mimeType\":\"application/pdf\",\"fileId\":32101891,\"documentName\":\"tom_hacquoil copy1.pdf\",\"owner\":{\"id\":\"3631726758354485431\"},\"actionRequestDate\":null,\"actionCompleteDate\":null,\"uploadedByDetails\":{\"id\":\"<HIBOB_USER>\",\"impersonatorUserId\":null,\"impersonatorSupportDisplayName\":null}}"
+        }
+      },
+      "recorded_at": "Tue, 13 May 2025 17:05:00 GMT"
+    }
+  ],
+  "recorded_with": "VCR 6.3.1"
+}
