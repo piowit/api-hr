@@ -1,6 +1,6 @@
 class WebhookProcessingJob < ApplicationJob
   queue_as :default
-  retry_on StandardError, wait: :polynomially_longer, attempts: 2
+  retry_on StandardError, wait: :polynomially_longer, attempts: 15
 
   def perform(event_id)
     event = WebhookEvent.find_by(id: event_id)
