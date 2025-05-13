@@ -33,7 +33,7 @@ RSpec.describe Pinpoint::ApplicationHiredHibobService, type: :service do
     end
 
     it 'handles missing application ID' do
-      payload = {wrong: "payload"}
+      payload = { wrong: "payload" }
 
       event = WebhookEvent.create!(
         source: "pinpoint",

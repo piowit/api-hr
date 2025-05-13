@@ -24,7 +24,7 @@ RSpec.describe HibobApi do
 
     it 'raises an error when employee data is invalid', vcr: { cassette_name: 'hibob/create_employee_invalid' } do
       invalid_employee_data = {
-        firstName: 'Jane',
+        firstName: 'Jane'
       }
 
       expect {
